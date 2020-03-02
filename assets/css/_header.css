@@ -1,30 +1,30 @@
-nav.main-nav ul{
-
+.header{
+	background: #000;
+	border-bottom: 3px solid #f89a1d;
+	padding: 30px 0;
 }
-nav.main-nav ul li{
-	
+.hdr-lft{
+	width: 15%;
+	float: left;
 }
-nav.main-nav ul li a{
-	
+.hdr-rgt{
+	width: 85%;
+	float: right;
 }
-nav.main-nav > ul{
-
+.hdr-rgt p{
+	margin: 0;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+	text-align: right;
+	padding: 8px 0;
 }
-nav.main-nav > ul > li{
-
+.hdr-rgt p a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: inherit;
 }
-nav.main-nav > ul > li > a{
-
-}
-
-nav.main-nav > ul > li.current-menu-item > a{
-
-}
-
-nav.main-nav > ul > li.menu-item-has-children > a{
-
-}
-
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
-	
+.hdr-rgt p a:hover{
+	color: #f38b06;
 }
