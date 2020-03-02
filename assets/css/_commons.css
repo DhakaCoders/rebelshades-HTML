@@ -19,11 +19,12 @@ body {
     color: #2f2f2f;
     font-size: 16px;
     line-height: 24px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 p{
 	line-height: 24px;
+	margin-bottom: 10px;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
@@ -92,7 +93,6 @@ Containers
 }
 .container{
 	max-width: 1150px;
-	width: 100%;
 }
 .container-md{
 
@@ -100,7 +100,6 @@ Containers
 
 .container-sm{
 	max-width: 990px;
-	width: 100%;
 }
 
 

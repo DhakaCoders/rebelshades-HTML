@@ -22,9 +22,9 @@ a:focus,button:focus,input:focus,textarea:focus{
 a:hover{
 	text-decoration: none;
 }
-nav.main-nav ul li a:hover,
+/*nav.main-nav ul li a:hover,
 nav.main-nav ul li.current-menu-item a{
 	background:#004e37;
 	color:#fff;
-}
+}*/
 

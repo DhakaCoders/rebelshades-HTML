@@ -5,6 +5,8 @@
 	background: #ffffff;
 	box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
 	padding-top: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .rb-ty-prgs-bar,
 .rb-ty-title{
@@ -29,6 +31,23 @@
 	width: 100%;
 	margin: 0 auto;
 }
+.rb-ty-order-receipt table{
+	width: 100%;
+}
 .rb-ty-order-receipt table thead{
 	background: #606060;
+}
+.rb-ty-order-receipt table thead tr th{
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 18px;
+	text-transform: capitalize;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.rb-ty-order-receipt table tbody tr th{
+	padding-left: 50px;
+	padding-right: 50px;
 }
