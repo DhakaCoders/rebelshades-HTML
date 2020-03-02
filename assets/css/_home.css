@@ -3,6 +3,19 @@
 rb-counter-sec-wrp
 -------------------
 */
+.rb-content-sec-wrp{
+	padding-top: 10px;
+}
+
+
+.rb-in-stock-sec{
+	padding-top: 10px;
+}
+.has-btm-bdr{
+	border-bottom: 1px solid #000;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
 .rb-counter-sec-wrp{
 	padding-top: 30px;
 }
@@ -38,13 +51,7 @@ rb-counter-sec-wrp
 	color: #fff;
 }
 
-.rb-content-block-wrp{
-    -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
-    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
-    background-color: rgb(255, 255, 255);
-    padding: 20px 20px;
-}
+
 .rb-in-Stock-wrp{
 	padding: 20px 20px;
 	border-style: dotted;
@@ -66,16 +73,12 @@ rb-counter-sec-wrp
 	font-weight: 700;
 	color: #b11717;
 }
-.rb-sidebar-dsc-wrp{
-	border-top: 1px solid#000;
-	padding-top: 20px;
-	margin-top: 30px;
-}
+
 .rb-sidebar-dsc-lft{
 	width: 60%;
 	float: left;
 }
-.rb-sidebar-dsc-rgt{
+.rb-sidebar-rgt{
 	width: 40%;
 	float: left;
 }
@@ -146,4 +149,75 @@ rb-counter-sec-wrp
 	color: #b11717;
 	font-weight: 700;
 }
-.rb-time-dv-dsc blockquote{}
+.rb-time-dv-dsc blockquote{
+	padding: 20px 10px;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+	text-align: center;
+	font-style: italic;
+	margin: 0;
+	border-top: 1px solid#ddd;
+	border-bottom: 1px solid#ddd;
+}
+.rb-contact-dsc{
+	padding-top: 30px;
+	text-align: center;
+}
+.rb-contact-dsc span{
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.rb-contact-dsc a,
+.rb-contact-dsc span a{
+	font-size: 16px;
+	line-height: 18px;
+	color: inherit;
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+.rb-sidebar-wrp{
+	background: #f2f2f2;
+	-webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
+    padding: 20px 20px;
+}
+.start-here{
+	padding-bottom: 20px;
+	border-bottom: 1px solid#ddd;
+}
+.order-form{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.order-form span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 21px;
+	line-height: 23px;
+	font-weight: 700;
+}
+.order-form span i{
+	padding-right: 10px;
+}
+.rb-form-wrp{
+	border: 2px solid #DDD;
+	background: #fff;
+}
+.order-step-tabs-wrp{
+	border-bottom: 5px solid#1372A8;
+}
+.order-step-tabs{
+	width: 50%;
+	float: left;
+	padding: 10px 0 10px 30px;
+}
+
+
