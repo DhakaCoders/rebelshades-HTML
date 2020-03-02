@@ -191,8 +191,8 @@ rb-counter-sec-wrp
 }
 .order-form{
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 .order-form span{
 	display: inline-block;
@@ -202,7 +202,19 @@ rb-counter-sec-wrp
 	font-weight: 700;
 }
 .order-form span i{
-	padding-right: 5px;
+	padding-right: 10px;
+}
+.rb-form-wrp{
+	border: 2px solid #DDD;
+	background: #fff;
+}
+.order-step-tabs-wrp{
+	border-bottom: 5px solid#1372A8;
+}
+.order-step-tabs{
+	width: 50%;
+	float: left;
+	padding: 10px 0 10px 30px;
 }
 
 
