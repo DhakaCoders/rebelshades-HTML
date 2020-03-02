@@ -75,7 +75,7 @@ rb-counter-sec-wrp
 	width: 60%;
 	float: left;
 }
-.rb-sidebar-dsc-rgt{
+.rb-sidebar-rgt{
 	width: 40%;
 	float: left;
 }
@@ -146,4 +146,63 @@ rb-counter-sec-wrp
 	color: #b11717;
 	font-weight: 700;
 }
-.rb-time-dv-dsc blockquote{}
+.rb-time-dv-dsc blockquote{
+	padding: 20px 10px;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 600;
+	text-align: center;
+	font-style: italic;
+	margin: 0;
+	border-top: 1px solid#ddd;
+	border-bottom: 1px solid#ddd;
+}
+.rb-contact-dsc{
+	padding-top: 30px;
+	text-align: center;
+}
+.rb-contact-dsc span{
+	display: block;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.rb-contact-dsc a,
+.rb-contact-dsc span a{
+	font-size: 16px;
+	line-height: 18px;
+	color: inherit;
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+.rb-sidebar-wrp{
+	background: #f2f2f2;
+	-webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
+    padding: 20px 20px;
+}
+.start-here{
+	padding-bottom: 20px;
+	border-bottom: 1px solid#ddd;
+}
+.order-form{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.order-form span{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 21px;
+	line-height: 23px;
+	font-weight: 700;
+}
+.order-form span i{
+	padding-right: 5px;
+}
+
+
