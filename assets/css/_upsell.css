@@ -33,10 +33,7 @@
     margin-bottom: 20px;
 }
 
-.block-shadow .rb-content-block-wrp{
-	box-shadow: none;
-}
-.rb-content-block-wrp{
-	padding-left: 0;
-	padding-right: 0;
+.plr-10{
+	padding-left: 10px;
+	padding-right: 10px;
 }
