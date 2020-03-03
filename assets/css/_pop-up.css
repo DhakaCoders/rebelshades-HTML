@@ -11,7 +11,7 @@
   z-index: 99;
 }
 .countdown-popup-main{
-  padding: 25px 15px 12px;
+  padding: 25px 5px 12px;
   background-color: rgb(255, 255, 255);
   opacity: 1;
   position: relative;
@@ -64,14 +64,14 @@
   top: -600px;
   left: 0;
   right: 0;
-  -ms-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+  /* animation: drop 0.5s ease forwards; */
 }
 .countdown-popup-wrapper.show{
   display: block;
-  top: 0;
-  transition: all 1s ease;
+  animation: drop 0.5s ease forwards;
+}
+@keyframes drop{
+  100%{top: 0}
 }
 .countdown-popup-wrapper .modal {
   position: relative;
@@ -79,7 +79,7 @@
   height: 100%;
 }
 .countdown-popup-wrapper .modal-dialog {
-  max-width: 720px;
+  max-width: 730px;
   width: 100%;
   margin: 100px auto 0;
 }
@@ -101,8 +101,8 @@
   vertical-align: baseline;
   position: absolute;
   top: -18px;
-  right: -17px;
-  max-width: 35px;
+  right: -22px;
+  max-width: 40px;
   cursor: pointer;
   transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -177,7 +177,7 @@
   padding-right: 0;
 }
 #dftTimerCon #clockdiv {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 
