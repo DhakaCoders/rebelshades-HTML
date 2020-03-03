@@ -410,3 +410,26 @@
 	display: inline-block;
 	vertical-align: baseline;
 }
+
+.downsell-2-cntlr .up-1-gray-bg-sec-inr .row {
+    align-items: initial;
+}
+
+.downsell-2-cntlr .up-1-gray-bg-sec-inr {
+   background-color: rgb(242, 242, 242);
+}
+
+.downsell-2-cntlr .up-1-gray-bg-sec-des{
+	padding-left: 40px;
+}
+
+.downsell-2-cntlr .up-1-gray-bg-sec-des{
+	font-size: 18px;
+}
+.downsell-2-cntlr .up-1-gray-bg-sec-des p{
+	margin-bottom: 20px;
+}
+
+.downsell-2-cntlr .el-submit-btn{
+	margin-top: 30px;
+}
