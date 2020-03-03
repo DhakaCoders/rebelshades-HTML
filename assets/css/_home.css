@@ -17,9 +17,9 @@ rb-counter-sec-wrp
 .rb-counter-sec-wrp{
 	padding-top: 30px;
 }
-.rb-counter-wrp{
-	background: #000;
-	padding: 18px 30px 20px;
+.rb-counter-wrp {
+    background: #000;
+    padding: 25px 30px 30px;
 }
 .rb-counter-lft-dsc {
     width: 60%;
@@ -55,12 +55,12 @@ rb-counter-sec-wrp
 }
 
 
-.rb-in-Stock-wrp{
-	padding: 15px 20px;
-	border-style: dotted;
-	border-color: rgb(169, 23, 23);
-	border-width:5px; 
-	text-align: center;
+.rb-in-Stock-wrp {
+    padding: 25px 20px;
+    border-style: dotted;
+    border-color: rgb(169, 23, 23);
+    border-width: 5px;
+    text-align: center;
 }
 .rb-in-Stock-wrp span{
 	display: inline-block;
@@ -78,12 +78,12 @@ rb-counter-sec-wrp
 }
 
 .rb-sidebar-dsc-lft{
-	width: 60%;
+	width: 59.5%;
 	float: left;
 	padding-right: 15px;
 }
 .rb-sidebar-rgt{
-	width: 40%;
+	width: 40.5%;
 	float: left;
 	padding-left: 15px;
 }
@@ -160,7 +160,6 @@ rb-counter-sec-wrp
 	padding: 10px 10px 13px;
 	font-size: 20px;
 	line-height: 24px;
-	font-weight: 600;
 	text-align: center;
 	font-style: italic;
 	margin: 0;
@@ -200,7 +199,7 @@ rb-counter-sec-wrp
 	-webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
     -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
     box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
-    padding: 20px 20px 30px;
+    padding: 20px 18px 30px;
 }
 .start-here {
     padding-bottom: 25px;
@@ -219,6 +218,7 @@ rb-counter-sec-wrp
 	font-size: 21px;
 	line-height: 23px;
 	font-weight: 700;
+	color: #000;
 }
 .order-form span i{
 	padding-right: 10px;
@@ -288,6 +288,7 @@ rb-counter-sec-wrp
 }
 .rb-step-form{
 	padding: 20px 20px;
+	border-top: 2px solid #e5e5e5;
 }
 .rb-step-form-fields{
 	margin-bottom: 20px;
@@ -325,7 +326,7 @@ rb-counter-sec-wrp
 .rb-step-form-field input[type="email"]:focus{
 	border-color: #42B0E2;
 }
-body select {
+.bw-filter-options select {
     outline: 0;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -413,9 +414,10 @@ body select {
 	text-align: center;
 	padding: 30px 0 20px;
 }
-.rb-cart-dsc img{
-	max-width: 385px;
-	width: 100%;
+.rb-cart-dsc img {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
 }
 .rb-cart-dsc p{
 	padding-top: 20px;
@@ -464,9 +466,10 @@ body select {
 }
 .rb-btm-info a:last-of-type{
 	color: #2f2f2f;
+	font-weight: 400;
 }
 .rb-btm-info a i{
-	color: #000;
+	color: #2f2f2f;
 	padding-right: 10px;
 }
 .rb-btm-info a:hover{
@@ -485,8 +488,7 @@ body select {
 	text-align: left;
 	padding-bottom: 15px;
 }
-.rb-btm-Shipping-wrp span a{
-	color: inherit;
+.rb-btm-Shipping-wrp span u{
 	text-decoration: underline;
 }
 .rb-btm-Shipping-wrp span a:hover{
@@ -494,7 +496,7 @@ body select {
 }
 .rb-btm-Shipping-wrp h6{
 	margin: 0;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-weight: 700;
 }
 .rb-btm-Shipping-wrp p{
@@ -681,18 +683,121 @@ body select {
 	padding-bottom: 30px;
 }
 
-
-@media(max-width: 1499px){
-
+/*
+--------------------
+ Step 2
+--------------------
+*/
+.rb-step-price-wrp a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 13px;
+	color: #887;
+	padding-bottom: 20px;
+}
+.rb-step-price-wrp a i{
+	padding-right: 10px;
+}
+.rb-step-price-wrp a:hover{
+	text-decoration: underline;
+}
+.rb-step-item strong{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+	font-weight: 700;
+	float: left;
+}
+.rb-step-item{
+	border-bottom: 1px solid #DDD;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.rb-step-item strong:last-child{
+	text-align: right;
+	float: right;
+}
+.rb-step-item-radio-inr{
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+.rb-step-item-radio label{
+	margin: 0;
+	font-size: 14px;
+	line-height: 16px;
+}
+.rb-step-item-radio{
+	float: left;
+	width: 70%;
+}
+.rb-step-item-radio-inr span{
+	float: right;
+	width: 30%;
+	text-align: right;
+}
+.rb-step-2-form{
+	border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgba(221,221,221,0.18);
+    margin-bottom: 22px;
+}
+.rb-step-2-form .rb-step-form-field input{
+	background: #fff !important;
+}
+.rb-step-form-field label,
+.rb-filter-option2 label,
+.rb-filter-option1 label{
+	margin: 0;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	display: block;
+}
+.rb-filter-option1{
+	max-width: 95px;
+	width: 100%;
+	float: left;
+}
+.rb-filter-option2 {
+    max-width: 115px;
+    width: 100%;
+    float: left;
+    margin-left: 20px;
+}
+.rb-filter-option2 select,
+.rb-filter-option1 select{
+	width: 100%;
+	height: 50px;
+	border:1px solid#ddd;
+	font-size: 14px;
+    line-height: 24px;
+    padding: 12px 18px;
+}
+.rb-step-item span{
+	font-size: 14px;
+	line-height: 16px;
+	padding-bottom: 8px;
+	float: left;
+}
+.rb-step-item span:last-child{
+	float: right;
+}
+.border-btm{
+	border-bottom: 0;
+	padding-bottom: 25px;
+}
+.rb-promo-s2-code input{
+	border:3px solid#4a8920;
 }
 
-@media(max-width: 1399px){
 
-}
-
-@media(max-width: 1299px){
-
-}
 
 @media(max-width: 1199px){
 	.block-shadow{
@@ -729,6 +834,14 @@ body select {
 	}
 	.rb-content-ck-2-wrp  .rb-sidebar-dsc-lft{
 		padding-bottom: 30px;
+	}
+	#dftTimerCon {
+	    padding-left: 40px !important;
+	}
+	.rb-filter-option2,
+	.rb-filter-option1{
+		max-width: 280px;
+		width: 100%;
 	}	
 }
 
@@ -820,7 +933,21 @@ body select {
 	    padding-bottom: 15px;
 	}
 	.rb-counter-wrp {
-	    padding: 18px 15px 20px;
+	    padding: 25px 15px 25px;
+	}
+	.rb-counter-rgt {
+	    width: 100%;
+	    float: left;
+	    padding-top: 10px;
+	    text-align: center;
+	}
+	#dftTimerCon {
+	    padding-left: 0 !important;
+	}
+	.rb-filter-option2,
+	.rb-filter-option1 {
+	    max-width: 215px;
+	    width: 100%;
 	}
 }
 
@@ -830,6 +957,15 @@ body select {
 	}
 	.rb-btm-info a{
 		padding-bottom: 5px;
+	}
+	.rb-filter-option2,
+	.rb-filter-option1 {
+	    max-width: 100%;
+	    width: 100%;
+	}
+	.rb-filter-option2{
+		margin-left: 0;
+		margin-top: 15px;
 	}
 }
 
@@ -863,10 +999,26 @@ body select {
 	    width: 100%;
 	    padding-right: 0;
 	}
+	.rb-step-item-radio {
+	    float: left;
+	    width: 100%;
+	}
+	.rb-step-item-radio-inr span {
+	    float: right;
+	    width: 100%;
+	    text-align: left;
+	}
+	.rb-step-item span{
+		float: none;
+	}
+	.rb-step-item span:last-child {
+	    float: none;
+	}
 }
-
 @media(max-width: 359px){
-
+	.order-step-tabs{
+		min-height: 75px;
+	}
 }
 
 
