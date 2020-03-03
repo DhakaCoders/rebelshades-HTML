@@ -497,7 +497,7 @@ rb-counter-sec-wrp
 }
 .rb-address-dsc-sec-wrp {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .rb-address-dsc-wrp{
 	max-width: 1010px;
