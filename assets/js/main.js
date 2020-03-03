@@ -7,8 +7,9 @@ var windowWidth = $(window).width();
 $("body").one("mouseleave", function() {
 
     // pop-up
-    $('.countdown-popup-wrapper').css('display', 'block');
+    //$('.countdown-popup-wrapper').css('display', 'block');
 
+    $('.countdown-popup-wrapper').slideDown();
     $('.modal-backdrop-wrp').on('click', function(){
     	$('.countdown-popup-wrapper').slideUp();
     });
