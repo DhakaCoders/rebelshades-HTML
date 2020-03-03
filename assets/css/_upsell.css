@@ -486,6 +486,7 @@
 .downsell-2-cntlr .payment-img img,
 .downsell-1-cntlr .payment-img img{
 	max-width: 300px;
+	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
 }
@@ -551,7 +552,8 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.up-1-only-change-sec-con-sologan br{
+	.up-1-only-change-sec-con-sologan br,
+	.upsell-1-order-sec-inr h2 br{
 		display: none;
 	}
 	.up-1-gray-bg-sec-inr .row{
@@ -583,7 +585,25 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
+	.up-1-gray-bg-sec-images{
+		text-align: center;
+	}
+	.sidebar-img-des{
+		text-align: left;
+	}
+	.upsell-2-cntlr .up-1-gray-bg-sec-images {
+	    padding-top: 0;
+	}
+	.upsell-2-cntlr .up-1-gray-bg-sec-inr {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.shipping-speed-sec-btm {
+	    padding-right: 0;
+	}
+	.upsell-2-cntlr .shipping-speed-sec-top {
+	    padding-left: 0;
+	}
 }
 
 @media(max-width: 767px){
@@ -605,6 +625,7 @@
 	.downsell-1-cntlr .up-1-gray-bg-sec-des{
 		padding-left: 0;
 	}
+	
 }
 
 @media(max-width: 575px){
