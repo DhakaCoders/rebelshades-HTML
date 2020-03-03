@@ -19,133 +19,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->  
 
-<style> 
 
-.modal-backdrop-wrp {
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 1;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 99;
-}
-.countdown-popup-main{
-  padding: 40px 40px;
-  background-color: rgb(255, 255, 255);
-  opacity: 1;
-  min-height: 550px;
-  z-index: 100;
-}
-.countdown-popup-main h1{
-  font-weight: 700;
-  color: rgb(228, 59, 44);
-  text-transform: uppercase;
-  line-height: 1.3em;
-  margin-bottom: 15px;
-}
-.countdown-popup-main h3{
-  font-weight: 700;
-  color: rgb(32, 22, 82);
-  line-height: 1.3em;
-  margin-bottom: 15px;
-}
-.countdown-popup-main h5{
-  font-weight: 700;
-  color: rgb(228, 59, 44);
-  line-height: 1.3em;
-  margin-bottom: 32px;
-}
-.countdown-popup-main a{
-  display: inline-block;
-  vertical-align: baseline;
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  background-color: rgb(1, 116, 199);
-  font-size: 34px;
-  border: 1px solid rgba(0,0,0,0.2);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
-  border-radius: 3px;
-  text-transform: uppercase;
-  padding: 20px 28px;
-}
-.countdown-popup-wrapper{
-  display: none;
-}
-.countdown-popup-wrapper .modal {
-  position: relative;
-  display: block!important;
-}
-.countdown-popup-wrapper .modal-dialog {
-  max-width: 720px;
-  width: 100%;
-}
-.countdown-popup-wrapper .modal-body{
-  z-index: 100;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-}
-.countdown-popup-wrapper .modal-content {
-    background-color: rgb(255, 255, 255);
-    border: 0;
-    border-radius: 10px;
-}
-.syotimer__head{
-  display: none;
-}
-.modal-close-con {
-    display: inline-block;
-    vertical-align: baseline;
-    position: absolute;
-    top: -18px;
-    right: -17px;
-    max-width: 35px;
-    cursor: pointer;
-}
-.modal-close-con img{
-  width: 100%;
-}
-
-
-
-
-
-
-
-#clockdiv{
-  font-family: sans-serif;
-  color: #fff;
-  display: inline-block;
-  font-weight: 100;
-  text-align: center;
-  font-size: 30px;
-}
-
-#clockdiv > div{
-  padding: 10px;
-  border-radius: 3px;
-  background: #00BF96;
-  display: inline-block;
-}
-
-#clockdiv div > span{
-  padding: 15px;
-  border-radius: 3px;
-  background: #00816A;
-  display: inline-block;
-}
-
-.smalltext{
-  padding-top: 5px;
-  font-size: 16px;
-}
-
-
-</style>
 </head>
 <body>
 <header class="header">
@@ -169,32 +43,7 @@
   </div>
 </header>
 
-
-<div id="clockdiv">
-  <div>
-    <span class="days"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span class="hours"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-</div>
-
-
-
 <div class="countdown-popup-wrapper">
-<!--   <div class="text-center">
-    <button type="button" class="btn btn-primary text-center zein-modal-btn" data-toggle="modal" data-target="#quickByeZein">Modal Button</button>          
-  </div> -->
   <div class="modal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -205,14 +54,22 @@
             <h3>But if you leave this page the price can jump to the retail of <span>$27.95 PER ITEM!</span></h3>
             <h5>Don't miss this FREE offer... Click the blue button now...</h5>
             <a href="#">I REFUSE TO PAY $27.95 PER ITEM</a>
-            <div class="countdown-con">
-              <!-- <div id="periodic-timer-countdown"></div> -->
-
-              <div id="timer">
-                <!-- <div id="days"></div> -->
-                <div id="hours"></div>
-                <div id="minutes"></div>
-                <div id="seconds"></div>
+            <div id="clockdiv">
+              <div class="d-none">
+                <span class="days"></span>
+                <div class="smalltext">Days</div>
+              </div>
+              <div>
+                <span class="hours"></span>
+                <div class="smalltext">Hours</div>
+              </div>
+              <div>
+                <span class="minutes"></span>
+                <div class="smalltext">Minutes</div>
+              </div>
+              <div>
+                <span class="seconds"></span>
+                <div class="smalltext">Seconds</div>
               </div>
             </div>
           </div>
@@ -223,8 +80,6 @@
   </div>
 </div>
 
-<!-- Simple-Countdown-Periodic-Timer-Plugin-With-jQuery-SyoTimer 
-close-btn.png-->
 
 <div style="min-height: 1100px"></div>
 
@@ -245,38 +100,6 @@ close-btn.png-->
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/app.js"></script>
-<script src="assets/js/jquery.syotimer.js"></script>
-<script src="assets/js/syotimer.examples.js"></script>
-<script src="assets/js/service.js"></script>
 <script src="assets/js/main.js"></script>
-<script>
-  function makeTimer() {
 
-  //    var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");  
-    var endTime = new Date("29 April 2020 9:56:00 GMT+01:00");      
-      endTime = (Date.parse(endTime) / 1000);
-
-      var now = new Date();
-      now = (Date.parse(now) / 1000);
-
-      var timeLeft = endTime - now;
-
-      var days = Math.floor(timeLeft / 86400); 
-      var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-      var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
-      var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
-  
-      if (hours < "10") { hours = "0" + hours; }
-      if (minutes < "10") { minutes = "0" + minutes; }
-      if (seconds < "10") { seconds = "0" + seconds; }
-
-      $("#days").html(days + "<span>Days</span>");
-      $("#hours").html(hours + "<span>Hours</span>");
-      $("#minutes").html(minutes + "<span>Minutes</span>");
-      $("#seconds").html(seconds + "<span>Seconds</span>");   
-
-  }
-
-  setInterval(function() { makeTimer(); }, 1000);
-</script>
 </body>
