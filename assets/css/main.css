@@ -6,9 +6,15 @@
 @import url('_page.css');
 @import url('_home.css');
 @import url('_contact.css');
-@import url('_footer.css');
 @import url('_thank-you-1.css');
+@import url('_thank-you-2.css');
+@import url('_footer.css');
+
+<<<<<<< HEAD
+
+=======
 @import url('_upsell.css');
+>>>>>>> 55c63fb0ab15d7a19c08f3a4fc8b8cf6f5683c43
 
 
 
