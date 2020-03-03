@@ -681,6 +681,9 @@ body select {
 		margin-right: 15px;
 		margin-left: 15px;
 	}
+	.order-step-tabs {
+	    padding: 8px 5px 15px 35px;
+	}
 }
 
 @media(max-width: 991px){
@@ -698,7 +701,7 @@ body select {
 	.rb-sidebar-rgt {
 	    width: 100%;
 	    float: left;
-	    padding-left: 20px;
+	    padding-left: 0;
 	}
 	.rb-time-dv-dsc ul li{
 		display: block;
