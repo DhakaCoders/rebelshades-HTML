@@ -5,8 +5,8 @@ var windowWidth = $(window).width();
 
 // pop-up
 $("body").one("mouseleave", function() {
-  $('.countdown-popup-wrapper').css('display', 'block');
-});
+    $('.countdown-popup-wrapper').css('display', 'block');
+//});
 
 $('.modal-backdrop-wrp').on('click', function(){
 	$('.countdown-popup-wrapper').slideUp();
@@ -57,5 +57,7 @@ function initializeClock(id, endtime) {
 
 var deadline = new Date(Date.parse(new Date()) + 15 * 01 * 04 * 09 * 1000); 
 initializeClock('clockdiv', deadline);
+
+});
 
 })(jQuery);
