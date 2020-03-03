@@ -6,8 +6,6 @@ rb-counter-sec-wrp
 .rb-content-sec-wrp{
 	padding-top: 10px;
 }
-
-
 .rb-in-stock-sec{
 	padding-top: 10px;
 }
@@ -58,7 +56,7 @@ rb-counter-sec-wrp
 
 
 .rb-in-Stock-wrp{
-	padding: 20px 20px;
+	padding: 15px 20px;
 	border-style: dotted;
 	border-color: rgb(169, 23, 23);
 	border-width:5px; 
@@ -82,12 +80,12 @@ rb-counter-sec-wrp
 .rb-sidebar-dsc-lft{
 	width: 60%;
 	float: left;
-	padding-right: 10px;
+	padding-right: 15px;
 }
 .rb-sidebar-rgt{
 	width: 40%;
 	float: left;
-	padding-left: 10px;
+	padding-left: 15px;
 }
 .rb-order-now-img-wrp{
 	border-bottom: 1px solid #e5e5e5;
@@ -126,7 +124,6 @@ rb-counter-sec-wrp
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	padding-top: 20px;
 	padding-bottom: 20px;
 }
 .rb-time-dv-dsc ul li{
@@ -156,10 +153,11 @@ rb-counter-sec-wrp
 	line-height: 22px;
 	color: #e43b2c;
 	font-weight: 700;
+	padding-bottom: 15px;
 }
 .rb-btm-ck-2 blockquote,
 .rb-time-dv-dsc blockquote{
-	padding: 20px 10px;
+	padding: 10px 10px 13px;
 	font-size: 20px;
 	line-height: 24px;
 	font-weight: 600;
@@ -170,16 +168,16 @@ rb-counter-sec-wrp
 	border-bottom: 1px solid#ddd;
 }
 .rb-contact-dsc{
-	padding-top: 30px;
+	padding-top: 35px;
 	text-align: center;
 }
-.rb-contact-dsc span{
-	display: block;
-	font-size: 16px;
-	line-height: 18px;
-	font-weight: 700;
-	padding-top: 5px;
-	padding-bottom: 5px;
+.rb-contact-dsc span {
+    display: block;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 .rb-contact-dsc a,
 .rb-contact-dsc span a{
@@ -204,10 +202,11 @@ rb-counter-sec-wrp
     box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
     padding: 20px 20px 30px;
 }
-.start-here{
-	padding-bottom: 20px;
-	border-bottom: 1px solid#ddd;
-	text-align: center;
+.start-here {
+    padding-bottom: 25px;
+    border-bottom: 1px solid#ddd;
+    text-align: center;
+    padding-top: 10px;
 }
 .order-form{
 	text-align: center;
@@ -461,7 +460,7 @@ body select {
 	line-height: 29px;
 	color: #435780;
 	font-weight: 700;
-	padding-bottom: 10px;
+	padding-bottom: 8px;
 }
 .rb-btm-info a:last-of-type{
 	color: #2f2f2f;
@@ -547,18 +546,21 @@ body select {
 	font-weight: 700;
 	padding-bottom: 10px;
 }
+.rb-address-dsc p{
+	padding-top: 10px;
+}
 .rb-address-dsc a{
 	display:block;
 	font-size: 14px;
 	line-height: 20px;
 	color: #2f2f2f;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 .rb-address-dsc a:hover{
 	color: #f89a1d;
 }
-.footer-wrp{
-	padding: 30px 0;
+.footer-wrp {
+    padding: 20px 0 35px;
 }
 .ftr-col-inr p{
 	margin: 0;
@@ -576,7 +578,7 @@ body select {
 	border-bottom: 1px solid #ddd;
 	margin: 30px;
 	text-align: center;
-	padding: 20px 10px;
+	padding: 15px 10px 20px;
 }
 .shipping-price-title h3{
 	margin: 0;
@@ -593,6 +595,7 @@ body select {
 }
 .rb-glasses-img{
 	padding: 30px 0 0;
+	text-align: center;
 }
 .rb-content-ck-2-wrp .rb-time-dv-dsc p{
 	font-size: 18px;
@@ -607,7 +610,7 @@ body select {
 	line-height: 20px;
 	color: #000;
 	font-weight: 700;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 .rb-content-ck-2-wrp .rb-time-dv-dsc span a{
 	color: inherit;
@@ -656,11 +659,26 @@ body select {
 	font-size: 17px;
 }
 
-.rb-content-ck-2-wrp .rb-btm-Shipping-wrp{
-	padding-top: 0;
+.rb-content-ck-2-wrp .rb-btm-Shipping-wrp {
+    padding-top: 30px;
 }
 .rb-content-ck-2-wrp .rb-cart-dsc{
 	padding-top: 0;
+}
+.rb-content-ck-2-wrp .rb-btm-info{
+	padding-top: 35px;
+}
+.rb-content-ck-2-wrp .rb-btm-info p{
+	margin-bottom: 0;
+}
+.rb-address-ck-2-wrp {
+    padding-bottom: 20px;
+}
+.rb-address-ck-2-dsc h5 span{
+	text-decoration: underline;
+}
+.rb-content-ck-2-wrp .rb-btm-Shipping-wrp span{
+	padding-bottom: 30px;
 }
 
 
