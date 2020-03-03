@@ -1,8 +1,7 @@
 (function($) {
 var windowWidth = $(window).width();
 
-$("body").one("mouseleave", function() {
-});
+
 
 // pop-up
 $("body").one("mouseleave", function() {
