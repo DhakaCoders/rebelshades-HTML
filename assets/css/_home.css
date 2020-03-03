@@ -28,6 +28,9 @@ rb-counter-sec-wrp
     float: left;
     padding-right: 100px;
 }
+.rb-counter-lft-dsc strong{
+	font-size: 18px;
+}
 .rb-counter-rgt{
 	width: 40%;
 	float: right;

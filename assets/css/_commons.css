@@ -13,6 +13,9 @@ a, a:hover, a:focus, button:hover, button:focus{
 	text-decoration: none;
 	outline: 0;
 }
+u{
+	text-decoration: underline;
+}
 
 body {
     background: #F1F4F8;

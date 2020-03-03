@@ -95,8 +95,16 @@
 	-webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
     box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
 }
-
+.transparent-bdr-box.transparent-bdr-box-2{
+	width: auto;
+	height: auto;
+}
+.img-align-center{
+	margin-left: auto;
+	margin-right: auto;
+}
 .up-1-gray-bg-sec-des{
 	font-size: 22px;
 }
@@ -191,6 +199,7 @@
 .shipping-speed-sec-btm blockquote{
 	font-size: 20px;
 	font-style: italic;
+	margin-top: -6px;
 }
 .shipping-speed-sec-top h6 + p{
 	font-size: 18px;
@@ -229,7 +238,7 @@
 	line-height: 22px;
 }
 .shipping-speed-sec-btm{
-	padding-right: 20px;
+	padding-right: 15px;
 }
 .shipping-speed-sec-top h5{
 	font-size: 22px;
@@ -277,4 +286,36 @@
 .sssbc-tel-2 a,
 .sssbc-mail-2 a{
 	color: inherit;
+}
+
+.downsell-1-cntlr .up-1-only-change-sec{
+	padding-bottom: 15px;
+}
+
+.downsell-1-cntlr .up-1-gray-bg-sec-inr{
+	background-color: rgb(242, 242, 242);
+}
+
+.downsell-1-cntlr .up-1-gray-bg-sec-des{
+	padding-left: 40px;
+	font-size: 18px;
+}
+.downsell-1-cntlr .up-1-gray-bg-sec-des p{
+	margin-bottom: 20px;
+}
+.downsell-1-cntlr .up-1-gray-bg-sec-des p:last-child{
+	margin-bottom: 0;
+}
+
+.downsell-1-cntlr .up-1-gray-bg-sec-inr .row {
+
+    align-items: initial;
+}
+.up-1-gray-bg-section{
+	margin-bottom: 5px;
+}
+
+.downsell-1-cntlr .el-hilight-link a {
+    padding-left: 15px;
+    padding-right: 15px;
 }
