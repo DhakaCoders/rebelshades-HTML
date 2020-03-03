@@ -1,0 +1,14 @@
+Thank You:
+-------------
+Desktop--->
+
+1. https://www.screencast.com/t/4ylY5BI4
+	aikhane gap besi hobe. uporer section ar margin-bottom daw
+
+2. https://www.screencast.com/t/HNL2wtgYCEcY
+	i) box shadow ar prefix hobe
+	ii) ai div tar 991px margin left and right -15px daw
+
+3. https://www.screencast.com/t/Pcdxjyft
+	https://www.screencast.com/t/VIKHYwe3Pavc
+	img tag a img ta hobe
