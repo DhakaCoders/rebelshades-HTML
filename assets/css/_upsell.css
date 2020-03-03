@@ -319,3 +319,117 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.upsell-2-cntlr .up-1-gray-bg-sec-inr{
+	background: transparent;
+}
+.upsell-2-cntlr .up-1-gray-bg-sec-des{
+	background-color: rgb(242, 242, 242);
+	padding: 15px 20px;
+}
+.upsell-2-cntlr .up-1-gray-bg-sec-inr .row {
+    align-items: initial;
+}
+
+.upsell-2-cntlr .up-1-gray-bg-sec-images{
+	padding-top: 20px;
+}
+.color-red{
+	color: rgb(196, 0, 0);
+}
+.up-1-gray-bg-sec-des ul{
+	text-align: left;
+	list-style: none;
+	margin: 0;
+	padding: 10px 0 0 30px;
+}
+.up-1-gray-bg-sec-des ul li{
+	position: relative;
+	padding: 0 0 20px 30px;
+}
+.up-1-gray-bg-sec-des ul li:before{
+	content: "\f0e7"!important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    text-decoration: inherit;
+    color: #A91717;
+    font-size: 22px;
+    padding-right: 0;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    line-height: 15px;
+}
+
+.upsell-2-cntlr .up-1-gray-bg-sec-des{
+	font-size: 18px;
+}
+
+.upsell-2-cntlr .up-1-gray-bg-sec-inr{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sidebar-img-des-hdr{
+	padding-top: 10px;
+}
+.sidebar-img-des-hdr h5{
+	font-family: 'Oswald', sans-serif;
+	color: #000;
+	margin-bottom: 0;
+	font-size: 24px;
+}
+.sidebar-img-des-hdr p{
+	font-size: 18px;
+}
+
+.sidebar-img-des ul{
+	margin: 0;
+	padding: 5px 0 0 30px;
+	list-style: none;
+}
+.sidebar-img-des ul li{
+	position: relative;
+	padding: 0 0 10px 25px;
+}
+.sidebar-img-des ul li:after{
+	content: "\f00c"!important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    text-decoration: inherit;
+    color: #1E1E1E;
+    font-size: 16px;
+    padding-right: 0;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    line-height: 15px;
+}
+.sidebar-img-des p small{
+	font-size: 12px;
+	line-height: 14px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.downsell-2-cntlr .up-1-gray-bg-sec-inr .row {
+    align-items: initial;
+}
+
+.downsell-2-cntlr .up-1-gray-bg-sec-inr {
+   background-color: rgb(242, 242, 242);
+}
+
+.downsell-2-cntlr .up-1-gray-bg-sec-des{
+	padding-left: 40px;
+}
+
+.downsell-2-cntlr .up-1-gray-bg-sec-des{
+	font-size: 18px;
+}
+.downsell-2-cntlr .up-1-gray-bg-sec-des p{
+	margin-bottom: 20px;
+}
+
+.downsell-2-cntlr .el-submit-btn{
+	margin-top: 30px;
+}
