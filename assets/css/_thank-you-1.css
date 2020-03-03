@@ -139,27 +139,7 @@
 
 
 
-@media(max-width: 1499px){
 
-}
-
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
-
-@media(max-width: 1199px){
-	.hide-lg{
-		display: none!important;
-	}
-	.show-lg{
-		display: block!important;
-	}
-
-}
 
 @media(max-width: 991px){
 	.hide-md{
@@ -258,13 +238,20 @@
 	.rb-ty-contact {
 	    padding: 20px 0 15px 0;
 	}
+	.rb-ty-img {
+	    min-height: 275px;
+	}
 }
 
 @media(max-width: 479px){
-
+	.rb-ty-img {
+	    min-height: 200px;
+	}
 
 }
 
 @media(max-width: 359px){
-
+	.rb-ty-img {
+	    min-height: 175px;
+	}
 }
