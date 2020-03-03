@@ -1,0 +1,131 @@
+.modal-backdrop-wrp {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+}
+.countdown-popup-main{
+  padding: 25px 15px 12px;
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  min-height: 550px;
+  z-index: 100;
+}
+.countdown-popup-main h1{
+  font-weight: 700;
+  color: rgb(228, 59, 44);
+  text-transform: uppercase;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+}
+.countdown-popup-main h3{
+  font-weight: 700;
+  color: rgb(32, 22, 82);
+  line-height: 1.3em;
+  margin-bottom: 15px;
+}
+.countdown-popup-main h3 span{
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.countdown-popup-main h5{
+  font-weight: 700;
+  color: rgb(228, 59, 44);
+  line-height: 1.3em;
+  margin-bottom: 32px;
+}
+.countdown-popup-main a{
+  display: inline-block;
+  vertical-align: baseline;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background-color: rgb(1, 116, 199);
+  font-size: 34px;
+  border: 1px solid rgba(0,0,0,0.2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 3px;
+  text-transform: uppercase;
+  padding: 20px 28px;
+}
+.countdown-popup-main a:hover {
+  -webkit-box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22),0 233px 233px 0 rgba(255,255,255,0.12) inset;
+  box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22),0 233px 233px 0 rgba(255,255,255,0.12) inset;
+}
+.countdown-popup-wrapper{
+  display: none;
+}
+.countdown-popup-wrapper .modal {
+  position: relative;
+  display: block!important;
+}
+.countdown-popup-wrapper .modal-dialog {
+  max-width: 720px;
+  width: 100%;
+}
+.countdown-popup-wrapper .modal-body{
+  z-index: 100;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.countdown-popup-wrapper .modal-content {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 10px;
+}
+.syotimer__head{
+  display: none;
+}
+.modal-close-con {
+  display: inline-block;
+  vertical-align: baseline;
+  position: absolute;
+  top: -18px;
+  right: -17px;
+  max-width: 35px;
+  cursor: pointer;
+}
+.modal-close-con img{
+  width: 100%;
+}
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+#clockdiv > div{
+  padding: 10px;
+  display: inline-block;
+}
+#clockdiv div > span {
+  padding: 5px;
+  padding-top: 31px;
+  background: #FFF;
+  display: inline-block;
+  color: #C41229;
+  border: 4px solid #C41229;
+  border-radius: 100%;
+  width: 100px;
+  height: 95px;
+  font-size: 47px;
+  font-weight: 700;
+}
+#clockdiv .smalltext{
+  padding-top: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.4);
+}
+
