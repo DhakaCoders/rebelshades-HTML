@@ -3,28 +3,10 @@ var windowWidth = $(window).width();
 
 
 
-// setTimeout(function() {
-//     $('.countdown-popup-wrapper').css('display', 'block');
-// }, 4000)
-
-
-
-
-
-
-$("body").mouseleave('load', function(){
-    $('.countdown-popup-wrapper').css('display', 'block');
+// pop-up
+$("body").one("mouseleave", function() {
+  $('.countdown-popup-wrapper').css('display', 'block');
 });
-
-
-
-
-
-
-
-
-
-
 
 $('.modal-backdrop-wrp').on('click', function(){
 	$('.countdown-popup-wrapper').slideUp();
