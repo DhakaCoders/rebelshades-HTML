@@ -28,7 +28,7 @@ rb-counter-sec-wrp
     float: left;
     padding-right: 100px;
 }
-.rb-counter-lft-dsc strong{
+.rb-counter-lft-dsc > strong{
 	font-size: 18px;
 }
 .rb-counter-rgt{
@@ -39,6 +39,9 @@ rb-counter-sec-wrp
 	margin: 0;
 	color: #fff;
 	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif ;	
+	font-weight: 400;
+
 }
 .rb-counter-lft-dsc h4 strong{
 	display: inline-block;
