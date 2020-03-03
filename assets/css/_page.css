@@ -25,7 +25,7 @@ Start sitemap
 .sitemap ul li a {
   display: inline-block;
   vertical-align: baseline;
-  color: #000;
+  color: rgb(32, 22, 82);
   font-size: 20px;
   font-weight: 500;
   text-transform: uppercase;
@@ -36,14 +36,15 @@ Start sitemap
   transition: all .3s ease;
 }
 .sitemap ul li a:hover{
-  color: #0055FF;
+  color: rgb(228, 59, 44);
 }
 .sitemap ul li a:focus{
+  color: rgb(228, 59, 44);
   text-decoration: underline;
 }
 .sitemap h2 {
   margin: 0;
   padding-bottom: 40px;
   text-transform: uppercase;
-  color: #0055FF;
+  color: rgb(228, 59, 44);
 }
