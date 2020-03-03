@@ -483,7 +483,8 @@
 }
 
 .upsell-2-cntlr .payment-img img,
-.downsell-2-cntlr .payment-img img{
+.downsell-2-cntlr .payment-img img,
+.downsell-1-cntlr .payment-img img{
 	max-width: 300px;
 	margin-left: 0;
 	margin-right: 0;
@@ -572,6 +573,16 @@
 	.shipping-speed-sec-top {
 		padding-top: 35px;
 	}
+	.shipping-speed-sec-btm blockquote br,
+	.up-1-only-change-sec-hdr h5 br{
+		display: none;
+	}
+	.transparent-bdr-box.transparent-bdr-box-2{
+		display: inline-block;
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	
 }
 
@@ -590,6 +601,9 @@
 	}
 	.up-1-upgrade-order-sec-sologan p br{
 		display: none;
+	}
+	.downsell-1-cntlr .up-1-gray-bg-sec-des{
+		padding-left: 0;
 	}
 }
 
