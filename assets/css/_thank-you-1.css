@@ -1,0 +1,138 @@
+.rb-thank-you-sec-wrap{
+	margin-top: 20px;
+}
+.rb-thank-you-sec{
+	background: #ffffff;
+	box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
+	padding: 60px 30px 30px 30px;
+}
+.rb-ty-prgs-bar,
+.rb-ty-title{
+	text-align: center;
+}
+.rb-ty-title{
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+.rb-ty-title h1{
+	color: #e43b2c;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin: 0;
+	padding-bottom: 5px;
+}
+.rb-ty-title strong{
+	color: #e43b2c;
+	font-weight: 700;
+	font-size: 28px;
+}
+.rb-ty-order-receipt{
+	max-width: 828px;
+	width: 100%;
+	margin: 0 auto;
+}
+.rb-ty-order-receipt-head{
+	background: #606060;
+	padding: 10px 0 10px 0px;
+	border-radius: 3px 3px 0 0;
+}
+.rb-ty-order-receipt-head span{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700; 
+	padding-left: 50px;
+	position: relative;
+}
+.rb-ty-order-receipt-head span:before{
+	content: "\f00c";
+	position: absolute;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	left: 25px;
+}
+.rb-ty-order-receipt-des-wrap{
+	padding: 30px 50px 15px;
+	background: #ffffff;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+.rb-ty-order-receipt-des{
+	padding: 0 5px;
+	border-bottom: 1px solid #ddd;
+}
+.rb-ty-order-receipt-des-left{
+	float: left;
+	padding-bottom: 5px;
+}
+.rb-ty-order-receipt-des-right{
+	float: right;
+	padding-bottom: 5px;
+}
+.rb-ty-divider{
+	padding-top: 30px;
+	border-bottom: 2px solid #c0c0c0;
+	max-width: 636px;
+	margin: 0 auto;
+}
+.rb-ty-cnt{
+	padding-top: 50px; 
+	padding-bottom: 40px;
+}
+.rb-ty-cnt h5{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin: 0;
+	padding-bottom: 25px;
+}
+.rb-ty-cnt ul li{
+	font-size: 22px;
+}
+.rb-ty-cnt ul li strong{
+	font-weight: 700;
+}
+.rb-ty-cnt ul li em{
+	font-style: italic;
+}
+.rb-ty-team-contact{
+	text-align: center;
+	padding-bottom: 25px;
+}
+.rb-ty-team-contact p,
+.rb-ty-team-contact a,
+.rb-ty-team-contact span{
+	margin: 0;
+	font-size: 24px;
+	line-height: 29px;
+}
+.rb-ty-team-contact p span{
+	text-decoration: underline;
+}
+
+.rb-ty-img{
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	background-position: center center!important;
+	min-height: 350px;
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+}
+.rb-ty-contact{
+	padding: 30px 0 22px 0;
+	text-align: center;
+}
+.rb-ty-contact strong{
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.rb-ty-contact span{
+	display: block;
+}
+.rb-ty-bottom-cnt{
+	text-align: center;
+}
+.rb-ty-bottom-cnt p strong{
+	font-weight: 700;
+}

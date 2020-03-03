@@ -13,17 +13,20 @@ a, a:hover, a:focus, button:hover, button:focus{
 	text-decoration: none;
 	outline: 0;
 }
+u{
+	text-decoration: underline;
+}
 
 body {
     background: #F1F4F8;
     color: #2f2f2f;
     font-size: 16px;
     line-height: 24px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 p{
-	line-height: 24px;
+	margin-bottom: 10px;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575
@@ -92,14 +95,13 @@ Containers
 }
 .container{
 	max-width: 1150px;
-	width: 100%;
 }
 .container-md{
 
 }
 
 .container-sm{
-
+	max-width: 990px;
 }
 
 

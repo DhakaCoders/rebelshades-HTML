@@ -1,0 +1,32 @@
+.rb-ty2-team-cnct{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+.rb-ty2-team-cnct span{
+	font-size: 24px;
+	line-height: 29px;
+}
+.rb-ty2-img{
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	background-position: center center!important;
+	min-height: 500px;
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+}
+.rb-ty2-bottom-contact{
+	text-align: center;
+	padding-top: 30px;
+}
+.rb-ty2-bottom-contact span  strong{
+	font-weight: 700;
+	text-decoration: underline;
+}
+.rb-ty2-sec-ctlr .rb-ty-title{
+	margin-top: 0px;
+}
+.rb-ty2-sec-ctlr .rb-ty-contact{
+	padding-top: 25px;
+}
