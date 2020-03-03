@@ -64,7 +64,6 @@
   top: -600px;
   left: 0;
   right: 0;
-  /* animation: drop 0.5s ease forwards; */
 }
 .countdown-popup-wrapper.show{
   display: block;
@@ -79,7 +78,7 @@
   height: 100%;
 }
 .countdown-popup-wrapper .modal-dialog {
-  max-width: 730px;
+  max-width: 745px;
   width: 100%;
   margin: 100px auto 0;
 }
