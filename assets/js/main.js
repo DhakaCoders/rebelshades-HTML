@@ -66,11 +66,11 @@ if( $('.countdown-popup-wrapper').length ){
         $('.countdown-popup-wrapper').addClass('show');
 
         $('.modal-backdrop-wrp').on('click', function(){
-        	$('.countdown-popup-wrapper').hide();
+        $('.countdown-popup-wrapper').removeClass('show');
         });
 
         $('.modal-close-con').on('click', function(){
-        	$('.countdown-popup-wrapper').hide();
+        $('.countdown-popup-wrapper').removeClass('show');
         });
 
         // countdown
@@ -118,7 +118,6 @@ if( $('.countdown-popup-wrapper').length ){
 
     });
 }
-
 
 
 })(jQuery);
