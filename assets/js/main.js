@@ -3,9 +3,25 @@ var windowWidth = $(window).width();
 
 
 
-setTimeout(function() {
+// setTimeout(function() {
+//     $('.countdown-popup-wrapper').css('display', 'block');
+// }, 4000)
+
+
+
+
+
+
+$("body").mouseleave('load', function(){
     $('.countdown-popup-wrapper').css('display', 'block');
-}, 4000)
+});
+
+
+
+
+
+
+
 
 
 
@@ -57,7 +73,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+var deadline = new Date(Date.parse(new Date()) + 15 * 01 * 04 * 09 * 1000); 
 initializeClock('clockdiv', deadline);
 
 })(jQuery);
