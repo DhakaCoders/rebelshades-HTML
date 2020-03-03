@@ -30,7 +30,7 @@
           <div class="hdr-lft">
             <div class="logo">
               <a href="#">
-                <img src="assets/images/logo.png">
+                <img class="lazy" data-src="assets/images/logo.png">
               </a>
             </div>
           </div>
@@ -107,7 +107,7 @@
             <h2>4 pairs of Rebel Night Shades TOO MUCH?</h2>
             <em>*Do not hit the "Back" button as it can cause multiple charges to your card*</em>
             <div class="progress-bar-img">
-              <img src="assets/images/progress-bar.png">
+              <img class="lazy" data-src="assets/images/progress-bar.png">
             </div>
           </div>
         </div>
@@ -136,10 +136,10 @@
             <div class="row">
               <div class="col-md-12 col-lg-4 text-center">
                 <div class="transparent-bdr-box transparent-bdr-box-2">
-                  <img src="assets/images/rb-ty-glass-img.jpg">
+                  <img class="lazy" data-src="assets/images/rb-ty-glass-img.jpg">
                 </div>
                 <div class="transparent-bdr-box img-align-center">
-                  <img src="assets/images/2-yellow-transp-1.png">
+                  <img class="lazy" data-src="assets/images/2-yellow-transp-1.png">
                 </div>
               </div>
               <div class="col-md-12 col-lg-8">
@@ -178,7 +178,7 @@
             </div>
             <a class="el-submit-btn" href="#">YES! Upgrade My Order Now</a>
             <div class="payment-img">
-              <img src="assets/images/credit-only-nostripe.png">
+              <img class="lazy" data-src="assets/images/credit-only-nostripe.png">
             </div>
             <div class="el-hilight-link">
               <a href="#">No thanks. I understand that this is my only opportunity to get access to this special offer and I'm okay with missing out, even at this HUGE discount</a>
@@ -288,8 +288,9 @@
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
-<script src="assets/js/app.js"></script>
+<script src="assets/js/lazyload.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script type="text/javascript">window.onload = function() {var newd1 = new LazyLoad({elements_selector: ".lazy"});}</script>
 
 </body>
 </html>
