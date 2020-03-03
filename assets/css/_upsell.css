@@ -12,6 +12,7 @@
 }
 .upsell-1-order-sec-inr h2{
 	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
 }
 .upsell-1-order-sec-inr em{
 	font-size: 23px;
@@ -124,7 +125,7 @@
     color: rgb(0, 0, 0);
 }
 .up-1-upgrade-order-sec-sologan{
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	padding-top: 5px;
 }
 .el-submit-btn{
@@ -178,7 +179,7 @@
 }
 .payment-img{
 	padding-top: 15px;
-	padding-bottom: 25px;
+	padding-bottom: 17px;
 }
 
 .el-hilight-link a{
@@ -250,7 +251,6 @@
 
 .sssbc-tel{
 	font-size: 27px;
-	list-style: 20px;
 	position: relative;
 	padding-top: 30px;
 	margin-top: 20px;
@@ -297,7 +297,7 @@
 }
 
 .downsell-1-cntlr .up-1-gray-bg-sec-des{
-	padding-left: 40px;
+	padding-left: 33px;
 	font-size: 18px;
 }
 .downsell-1-cntlr .up-1-gray-bg-sec-des p{
@@ -432,4 +432,88 @@
 
 .downsell-2-cntlr .el-submit-btn{
 	margin-top: 30px;
+}
+.upsell-1-cntlr .up-1-gray-bg-sec-inr{
+	padding-bottom: 10px;
+}
+.upsell-1-cntlr .up-1-upgrade-order-sec-sologan{
+	padding-bottom: 10px;
+}
+
+.upsell-1-cntlr .shipping-speed-sec-top > p,
+.downsell-1-cntlr .shipping-speed-sec-top > p{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.downsell-1-cntlr .up-1-upgrade-order-sec-sologan{
+	padding-top: 10px;
+}
+
+.downsell-1-cntlr .sssbc-tel,
+.downsell-2-cntlr .sssbc-tel{
+	margin-top: 5px;
+}
+
+.downsell-1-cntlr .shipping-speed-sec-top{
+	padding-left: 10px;
+}
+.upsell-2-cntlr .up-1-gray-bg-sec-des ul{
+	padding-left: 40px;
+}
+.upsell-2-cntlr .up-1-gray-bg-sec-des ul li{
+	font-size: 22px;
+}
+
+.upsell-2-cntlr .up-1-gray-bg-sec-des p{
+	margin-bottom: 20px;
+}
+
+.upsell-2-cntlr .up-1-upgrade-order-sec-sologan h6{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.upsell-2-cntlr .up-1-upgrade-order-sec-sologan p:last-of-type{
+	font-size: 20px;
+}
+.upsell-2-cntlr .up-1-upgrade-order-sec-sologan{
+	padding-bottom: 0;
+}
+
+.upsell-2-cntlr .payment-img img,
+.downsell-2-cntlr .payment-img img{
+	max-width: 300px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.upsell-2-sec-divider{
+	margin-bottom: 40px;
+}
+
+.upsell-2-cntlr .shipping-speed-sec-btm,
+.downsell-2-cntlr .shipping-speed-sec-btm{
+	margin-top: -5px;
+}
+.upsell-2-cntlr .sssbc-tel{
+	margin-top: 5px;
+}
+
+.upsell-2-cntlr  .shipping-speed-sec-top h6{
+	font-size: 20px;
+}
+.upsell-2-cntlr  .shipping-speed-sec-top{
+	padding-left: 10px;
+}
+.upsell-2-cntlr .shipping-speed-sec-top > p,
+.downsell-2-cntlr .shipping-speed-sec-top > p{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.downsell-2-cntlr .shipping-speed-sec-top-btm-color{
+	padding-top: 50px;
+}
+.downsell-2-cntlr .shipping-speed-sec-top ul li:last-child{
+	padding-bottom: 20px;
 }
