@@ -64,15 +64,14 @@
   top: -600px;
   left: 0;
   right: 0;
-  animation: drop 0.5s ;
-  /* -ms-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s; */
+  /* animation: drop 0.5s ease forwards; */
 }
 .countdown-popup-wrapper.show{
   display: block;
-  top: 0;
-  transition: all 1s ease;
+  animation: drop 0.5s ease forwards;
+}
+@keyframes drop{
+  100%{top: 0}
 }
 .countdown-popup-wrapper .modal {
   position: relative;
