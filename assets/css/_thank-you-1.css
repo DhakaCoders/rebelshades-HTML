@@ -69,10 +69,9 @@
 	padding-bottom: 5px;
 }
 .rb-ty-divider{
-	padding-top: 28px;
+	padding-top: 30px;
 	border-bottom: 2px solid #c0c0c0;
-	max-width: 638px;
-	width: 100%;
+	max-width: 636px;
 	margin: 0 auto;
 }
 .rb-ty-cnt{
@@ -114,12 +113,12 @@
 	background-size: cover!important;
 	background-position: center center!important;
 	min-height: 350px;
-	max-width: 502px;
+	max-width: 500px;
 	width: 100%;
 	margin: 0 auto;
 }
 .rb-ty-contact{
-	padding: 35px 0 28px 0;
+	padding: 30px 0 22px 0;
 	text-align: center;
 }
 .rb-ty-contact strong{
@@ -130,8 +129,6 @@
 }
 .rb-ty-contact span{
 	display: block;
-	font-size: 16px;
-	color: #2f2f2f;
 }
 .rb-ty-bottom-cnt{
 	text-align: center;
