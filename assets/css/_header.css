@@ -3,12 +3,22 @@
 	border-bottom: 3px solid #f89a1d;
 	padding: 30px 0;
 }
-.hdr-lft{
-	width: 15%;
-	float: left;
+.hdr-lft {
+    width: 25%;
+    float: left;
+    padding-left: 55px;
+}
+.logo{
+	max-width: 150px;
+	width: 100%;
+}
+.logo a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
 }
 .hdr-rgt{
-	width: 85%;
+	width: 75%;
 	float: right;
 }
 .hdr-rgt p{
