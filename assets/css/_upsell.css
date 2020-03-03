@@ -517,3 +517,67 @@
 .downsell-2-cntlr .shipping-speed-sec-top ul li:last-child{
 	padding-bottom: 20px;
 }
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.block-shadow{
+		max-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.rb-counter-sec-wrp .container{
+		max-width: 1240px;
+	}
+	.rb-counter-wrp{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.plr-40{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media(max-width: 991px){
+
+	
+}
+
+@media(max-width: 767px){
+	.upsell-1-order-sec-inr h2{
+		font-size: 35px;
+	}
+	.upsell-1-order-sec-inr em{
+		font-size: 21px;
+	}
+	h3 {
+	    font-size: 34px;
+	}
+}
+
+@media(max-width: 575px){
+
+
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
+}
