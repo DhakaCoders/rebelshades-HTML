@@ -622,9 +622,11 @@
 	.up-1-upgrade-order-sec-sologan p br{
 		display: none;
 	}
-	.downsell-1-cntlr .up-1-gray-bg-sec-des{
+	.downsell-1-cntlr .up-1-gray-bg-sec-des,
+	.downsell-2-cntlr .up-1-gray-bg-sec-des{
 		padding-left: 0;
 	}
+
 	
 }
 
