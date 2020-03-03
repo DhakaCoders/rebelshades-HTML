@@ -119,6 +119,6 @@ if( $('.countdown-popup-wrapper').length ){
     });
 }
 
-
+new WOW().init();
 
 })(jQuery);

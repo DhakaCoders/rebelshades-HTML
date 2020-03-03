@@ -64,7 +64,9 @@
   top: -600px;
   left: 0;
   right: 0;
-  transition: all 1s ease;
+  -ms-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .countdown-popup-wrapper.show{
   display: block;
