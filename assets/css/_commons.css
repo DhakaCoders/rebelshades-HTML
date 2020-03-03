@@ -5,6 +5,11 @@ Commons
 	outline: 0!important;
 	text-decoration: none;
 }
+a{
+	word-break: break-all;
+	-ms-word-break: break-all;
+	-webkit-word-break: break-all;
+}
 a, button, input{
 	outline: 0;
 	border: 0;
