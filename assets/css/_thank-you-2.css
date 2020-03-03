@@ -30,3 +30,99 @@
 .rb-ty2-sec-ctlr .rb-ty-contact{
 	padding-top: 25px;
 }
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
+
+}
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	.rb-ty2-team-cnct {
+	    padding-top: 25px;
+	    padding-bottom: 20px;
+	}
+	.rb-ty2-bottom-contact {
+	    padding-top: 25px;
+	}
+	.rb-ty2-sec-ctlr .rb-ty-contact {
+	    padding-top: 20px;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.rb-ty2-team-cnct {
+	    padding-top: 20px;
+	    padding-bottom: 15px;
+	}
+	.rb-ty2-bottom-contact {
+	    padding-top: 20px;
+	}
+	.rb-ty2-sec-ctlr .rb-ty-contact {
+	    padding-top: 18px;
+	}
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	.rb-ty2-img {
+	    min-height: 400px;
+	}
+}
+
+@media(max-width: 479px){
+	.rb-ty2-img {
+	    min-height: 275px;
+	}
+	.rb-ty2-team-cnct span {
+	    font-size: 20px;
+	    line-height: 26px;
+	}
+
+}
+
+@media(max-width: 359px){
+	.rb-ty2-img {
+	    min-height: 250px;
+	}
+	.rb-ty2-team-cnct span {
+	    font-size: 16px;
+	    line-height: 22px;
+	}
+}
