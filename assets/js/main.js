@@ -7,6 +7,9 @@ setTimeout(function() {
     $('.countdown-popup-wrapper').css('display', 'block');
 }, 4000)
 
+
+
+
 $('.modal-backdrop-wrp').on('click', function(){
 	$('.countdown-popup-wrapper').slideUp();
 });
@@ -14,20 +17,47 @@ $('.modal-close-con').on('click', function(){
 	$('.countdown-popup-wrapper').slideUp();
 });
 
-	$('#periodic-timer-countdown').syotimer({
-        hour: 0,
-        minute: 6,
-        second: 30,
-        layout: 'smhd',
 
-        headTitle: '<h3>Units of countdown in reverse order</h3>' +
-            '<p>Demonstrate layout. ' +
-            'Period is equal 2 days and 5 hours.</p>',
-        effectType: 'opacity',
+function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
 
-        periodic: false,
-        periodInterval: 53,
-        periodUnit: 'h'
-    });
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock, 1000);
+}
+
+var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('clockdiv', deadline);
 
 })(jQuery);
