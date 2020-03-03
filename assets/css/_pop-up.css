@@ -10,6 +10,8 @@
   width: 100%;
   z-index: 99;
 }
+
+
 .countdown-popup-main{
   padding: 25px 15px 12px;
   background-color: rgb(255, 255, 255);
@@ -60,10 +62,24 @@
 }
 .countdown-popup-wrapper{
   display: none;
+  position: absolute;
+  top: -600px;
+  left: 0;
+  right: 0;
+  transition: all 1s ease;
+
 }
+.countdown-popup-wrapper.show{
+  display: block;
+  top: 0;
+  transition: all 1s ease;
+}
+
+
 .countdown-popup-wrapper .modal {
   position: relative;
   display: block!important;
+  height: 100%;
 }
 .countdown-popup-wrapper .modal-dialog {
   max-width: 720px;
@@ -73,6 +89,7 @@
   z-index: 100;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
+  position: relative;
 }
 .countdown-popup-wrapper .modal-content {
   background-color: rgb(255, 255, 255);
@@ -87,6 +104,12 @@
   right: -17px;
   max-width: 35px;
   cursor: pointer;
+  transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.modal-close-con:hover {
+  opacity: .7
 }
 .modal-close-con img{
   width: 100%;
@@ -127,6 +150,39 @@
 
 
 
+#dftTimerCon #clockdiv div > span {
+  padding-top: 18px;
+  background: transparent;
+  color: #C41229;
+  border: 4px solid #C41229;
+  width: 67px;
+  height: 67px;
+  font-size: 27px;
+}
 
+#dftTimerCon{
+  padding-left: 88px;
+}
+#dftTimerCon #clockdiv .smalltext {
+  padding-top: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  line-height: 12px;
+}
+#dftTimerCon #clockdiv > div {
+  padding:5px 7px 0;
+}
+#dftTimerCon #clockdiv > div.hours-wrp{
+  padding-left: 0;
+}
+#dftTimerCon #clockdiv > div.seconds-wrp{
+  padding-right: 0;
+}
+#dftTimerCon #clockdiv {
+    padding-top: 0;
+}
 
 
