@@ -31,7 +31,7 @@
           <div class="hdr-lft">
             <div class="logo">
               <a href="#">
-                <img src="assets/images/logo.png">
+                <img class="lazy" data-src="assets/images/logo.png">
               </a>
             </div>
           </div>
@@ -108,10 +108,10 @@
               <div class="rb-sidebar-dsc-lft clearfix">
                 <div class="rb-order-now-img-wrp">
                   <div class="rb-order-now-img-tp">
-                    <img src="assets/images/order-now-img.png">
+                    <img class="lazy" data-src="assets/images/order-now-img.png">
                   </div>
                   <div class="rb-order-now-img-btm">
-                    <img src="assets/images/yellow-night-img.jpg">
+                    <img class="lazy" data-src="assets/images/yellow-night-img.jpg">
                   </div>
                 </div>
                 <div class="rb-time-dv-dsc">
@@ -146,7 +146,7 @@
               <div class="rb-sidebar-rgt clearfix">
                 <div class="rb-sidebar-wrp">
                   <div class="start-here">
-                    <img src="assets/images/start-here-1.png">
+                    <img class="lazy" data-src="assets/images/start-here-1.png">
                   </div>
                   <div class="order-form">
                     <span><i class="fa fa-lock" aria-hidden="true"></i>Secure Order Form</span>
@@ -235,7 +235,7 @@
                       </form>
                     </div>
                   </div>
-                  <div class="rb-sidebar-btm">
+                  <div class="rb-sidebar-btm rb-sidebar-s2">
                     <div class="rb-cart-dsc">
                       <p>Your information will never be shared - we protect your privacy.  By entering your email, you agree to receive our free health tips e-newsletter to reach your goals faster, 100% free of charge</p>
                     </div>
@@ -301,8 +301,9 @@
 <script src="https://code.jquery.com/jquery-migrate-3.0.0.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
-<script src="assets/js/app.js"></script>
+<script src="assets/js/lazyload.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script type="text/javascript">window.onload = function() {var newd1 = new LazyLoad({elements_selector: ".lazy"});}</script>
 
 </body>
 </html>
