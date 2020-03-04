@@ -221,6 +221,7 @@
 .rb-form-step-wrp{
 	border: 2px solid #DDD;
 	background: #fff;
+	border-radius: 5px;
 }
 .order-step-tabs-wrp{
 	border-bottom: 5px solid#1372A8;
@@ -732,18 +733,27 @@ a.color-sky{
 	padding-top: 5px;
 	padding-bottom: 30px;
 }
-.rb-step-item-radio label{
-	margin: 0;
-	font-size: 14px;
-	line-height: 16px;
+.rb-step-item-radio label {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+}
+.rb-step-item-radio input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    float: left;
+    margin-right: 5px;
 }
 .rb-step-item-radio{
 	float: left;
-	width: 70%;
+	width: 74%;
+	position: relative;
+	padding-right:10px;
 }
 .rb-step-item-radio-inr span{
 	float: right;
-	width: 30%;
+	width: 26%;
 	text-align: right;
 }
 .rb-step-2-form{
@@ -786,17 +796,19 @@ a.color-sky{
     line-height: 24px;
     padding: 12px 18px;
 }
-.rb-step-item span{
-	font-size: 14px;
-	line-height: 16px;
-	padding-bottom: 8px;
-	float: left;
-	width: 80%;
+.rb-step-item span {
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 8px;
+    float: left;
+    width: 80%;
+    padding-right: 20px;
 }
 .rb-step-item span:last-child{
 	float: right;
 	width: 20%;
 	text-align: right;
+	padding-right: 0;
 }
 .border-btm{
 	border-bottom: 0;
@@ -808,6 +820,76 @@ a.color-sky{
 .rb-sidebar-s2 p{
 	padding-top: 0;
 }
+.rb-check-box-dsc{
+	border: 3px dashed black;
+	padding: 10px;
+	background-color: rgb(252, 248, 227);
+	margin-bottom: 30px;
+}
+.rb-check-box-dsc:first-child{
+	margin-top: 30px;
+}
+.rb-check-box-dsc:last-child{
+	margin-bottom: 22px;
+}
+.rb-checkbox {
+    background-color: rgb(255, 255, 153);
+    position: relative;
+    margin-bottom: 15px;
+    padding: 4px 5px 6px;
+}
+.rb-checkbox label {
+    color: #009900;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding-left: 100px;
+    display: block;
+}
+.rb-checkbox input[type=checkbox] {
+    position: absolute;
+    top: 8px;
+    left: 60px;
+}
+.rb-check-box-dsc p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.rb-check-box-dsc strong{
+	color: #cc3300;
+}
+.rb-check-box-img {
+    border: 3px solid rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+.rb-checkbox-park{
+	padding-top: 25px;
+}
+.rb-checkbox-park input[type=checkbox]{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+.rb-checkbox-park label{
+	padding-left: 0;
+	text-align: center;
+}
+
+.rb-cart-dsc-s2{
+	padding-top: 10px;
+}
+.rb-cart-dsc-s2 p{
+	padding-top: 3px;
+}
+
 
 
 
@@ -1017,6 +1099,18 @@ a.color-sky{
 	.form-state-field {
 	    width: 100%;
 	    padding-right: 0;
+	}
+	.rb-checkbox label{
+		padding-left: 50px;
+	}
+	.rb-checkbox input[type=checkbox]{
+		left: 20px;
+	}
+	.rb-checkbox-park input[type=checkbox]{
+		left: 50%;
+	}
+	.rb-checkbox-park label{
+		padding-left: 0;
 	}
 	
 }
