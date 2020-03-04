@@ -1,8 +1,3 @@
-/*
--------------------
-rb-counter-sec-wrp
--------------------
-*/
 .rb-content-sec-wrp{
 	padding-top: 10px;
 }
@@ -843,11 +838,14 @@ rb-counter-sec-wrp
 		max-width: 280px;
 		width: 100%;
 	}	
+	.rb-counter-lft-dsc{
+		padding-right: 60px;
+	}
 }
 
 @media(max-width: 767px){
 	.hdr-innr {
-	    display: inline-block;
+	    display: block;
 	}
 	.hdr-lft {
 	    padding-left: 0;
@@ -948,6 +946,10 @@ rb-counter-sec-wrp
 	.rb-filter-option1 {
 	    max-width: 215px;
 	    width: 100%;
+	}
+	.rb-in-Stock-wrp{
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 }
 
