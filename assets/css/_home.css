@@ -785,9 +785,12 @@ rb-counter-sec-wrp
 	line-height: 16px;
 	padding-bottom: 8px;
 	float: left;
+	width: 80%;
 }
 .rb-step-item span:last-child{
 	float: right;
+	width: 20%;
+	text-align: right;
 }
 .border-btm{
 	border-bottom: 0;
@@ -795,6 +798,9 @@ rb-counter-sec-wrp
 }
 .rb-promo-s2-code input{
 	border:3px solid#4a8920;
+}
+.rb-sidebar-s2 p{
+	padding-top: 0;
 }
 
 
@@ -999,21 +1005,7 @@ rb-counter-sec-wrp
 	    width: 100%;
 	    padding-right: 0;
 	}
-	.rb-step-item-radio {
-	    float: left;
-	    width: 100%;
-	}
-	.rb-step-item-radio-inr span {
-	    float: right;
-	    width: 100%;
-	    text-align: left;
-	}
-	.rb-step-item span{
-		float: none;
-	}
-	.rb-step-item span:last-child {
-	    float: none;
-	}
+	
 }
 @media(max-width: 359px){
 	.order-step-tabs{
