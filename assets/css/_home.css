@@ -51,7 +51,7 @@
 
 
 .rb-in-Stock-wrp {
-    padding: 25px 20px;
+    padding: 20px 20px;
     border-style: dotted;
     border-color: rgb(169, 23, 23);
     border-width: 5px;
@@ -84,7 +84,7 @@
 }
 .rb-order-now-img-wrp{
 	border-bottom: 1px solid #e5e5e5;
-	padding-bottom: 30px;
+	padding-bottom: 25px;
 }
 .rb-order-now-img-tp{
 	text-align: center;
@@ -511,6 +511,10 @@
 	line-height: 20px;
 	color: #000;
 }
+.rb-btm-Shipping-wrp > strong{
+	text-align: center;
+	display: block;
+}
 .rb-address-dsc-sec-wrp {
     padding-top: 50px;
     padding-bottom: 10px;
@@ -541,7 +545,7 @@
 	font-size: 14px;
 	line-height: 16px;
 	font-weight: 700;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 }
 .rb-address-dsc p{
 	padding-top: 10px;
@@ -620,9 +624,16 @@
 	color: #f38b06;
 }
 .rb-content-ck-2-wrp .rb-time-dv-dsc{
-	padding-left: 20px;
+	padding-left: 15px;
 	padding-right: 20px;
 	padding-top: 40px;
+}
+.color-gray a,
+.color-gray{
+	color: #2e2e2e!important;
+}
+a.color-sky{
+	color: rgb(67, 87, 128)!important;
 }
 .rb-content-ck-2-wrp .rb-btm-info{
 	border-bottom: 0;
@@ -820,7 +831,7 @@
 	    width: 100%;
 	    padding-right: 0;
 	    float: left;
-	    padding-bottom: 50px;
+	    padding-bottom: 70px;
 	}
 	.rb-sidebar-rgt {
 	    width: 100%;

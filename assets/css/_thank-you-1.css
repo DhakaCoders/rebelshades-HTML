@@ -10,6 +10,7 @@
 	-ms-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
 	-o-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.4);
 	padding: 60px 30px 30px 30px;
+	margin-bottom: 10px;
 }
 .rb-ty-prgs-bar,
 .rb-ty-title{
