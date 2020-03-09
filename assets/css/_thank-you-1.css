@@ -70,6 +70,9 @@
 	float: left;
 	padding-bottom: 5px;
 }
+.rb-ty-order-receipt-des span{
+	font-weight: bold;
+}
 .rb-ty-order-receipt-des-right{
 	float: right;
 	padding-bottom: 5px;
@@ -92,6 +95,7 @@
 }
 .rb-ty-cnt ul li{
 	font-size: 22px;
+	padding-bottom: 7px;
 }
 .rb-ty-cnt ul li strong{
 	font-weight: 700;
@@ -108,7 +112,17 @@
 .rb-ty-team-contact span{
 	margin: 0;
 	font-size: 24px;
-	line-height: 29px;
+	line-height: 31px;
+	    color: #2f2f2f;
+}
+.rb-ty-contact span a,
+.rb-ty2-bottom-contact a{
+	color: #2f2f2f;
+}
+.rb-ty-contact span a:hover,
+.rb-ty-team-contact a:hover,
+.rb-ty2-bottom-contact a:hover{
+    color: #f89a1d;
 }
 .rb-ty-team-contact p span{
 	text-decoration: underline;
@@ -138,9 +152,23 @@
 .rb-ty-bottom-cnt p strong{
 	font-weight: 700;
 }
-
-
-
+ul.listProducts{
+	list-style: none;
+	padding: 10px 0 10px;
+	margin: 0;
+	border-bottom: 1px solid #ddd;
+}
+ul.listProducts li{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+ul.lprTotal{
+	border-bottom: 0;
+}
+ul.lprTotal li{
+	font-weight: bold;
+}
 
 
 @media(max-width: 991px){

@@ -51,7 +51,7 @@
 
 
 .rb-in-Stock-wrp {
-    padding: 20px 20px;
+    padding: 15px 20px;
     border-style: dotted;
     border-color: rgb(169, 23, 23);
     border-width: 5px;
@@ -75,7 +75,7 @@
 .rb-sidebar-dsc-lft{
 	width: 59.5%;
 	float: left;
-	padding-right: 15px;
+	padding-right: 20px;
 }
 .rb-sidebar-rgt{
 	width: 40.5%;
@@ -111,7 +111,7 @@
 	font-size: 24px;
 	line-height: 26px;
 	color: #000;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	font-weight: 700;
 	font-family: 'Oswald', sans-serif ;
 }
@@ -119,13 +119,14 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	padding-bottom: 20px;
+	padding-top: 5px;
+	padding-bottom: 25px;
 }
 .rb-time-dv-dsc ul li{
 	display: inline-block;
 	vertical-align: baseline;
 	padding-left: 30px;
-	padding-bottom: 15px;
+	padding-bottom: 13px;
 	font-size: 15px;
 	line-height: 20px;
 	position: relative;
@@ -138,7 +139,7 @@
 .rb-time-dv-dsc ul li i{
 	position: absolute;
 	left: 0;
-	top: 2px;
+	top: 3px;
 	color: rgb(248, 154, 29);
 }
 .rb-time-dv-dsc span{
@@ -314,9 +315,6 @@
 	font-size: 14px;
 	line-height: 16px;
 	font-weight: 400;
-	transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
 }
 .rb-step-form-field input[type="text"]:focus,
 .rb-step-form-field input[type="email"]:focus{
@@ -341,7 +339,8 @@
 	color: #000;
 }
 
-.rb-step-form-btn input[type="submit"]{
+.rb-step-form-btn input[type="submit"],
+.rb-step-form-btn button.toStep2{
     border: 1px solid rgba(0,0,0,0.1);
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
 	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
@@ -360,7 +359,8 @@
     -ms-transition: all 0.5s;
     -webkit-transition: all 0.5s;
 }
-.rb-step-form-btn input[type="submit"]:hover{
+.rb-step-form-btn input[type="submit"]:hover,
+.rb-step-form-btn button.toStep2:hover{
 	background: #ff6600;
 }
 .rb-step-form-btn p{
@@ -408,7 +408,7 @@
 }
 .rb-cart-dsc{
 	text-align: center;
-	padding: 30px 0 20px;
+	padding: 20px 0 20px;
 }
 .rb-cart-dsc img {
     max-width: 320px;
@@ -432,7 +432,7 @@
 .rb-promo-code input{
 	width: 100%;
 	height: 50px;
-	border:1px solid#ddd;
+	border: 1px solid rgba(0,0,0,0.2);
 	border-radius: 5px;
 	padding: 15px 20px;
 	font-size: 16px;
@@ -440,6 +440,7 @@
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	box-shadow: inset 0 1px 2px rgba(130,137,150,0.23),0 1px 0 rgba(255,255,255,0.95) !important;
 }
 .rb-promo-code input:focus{
 	border-color: #42B0E2;
@@ -472,13 +473,13 @@
 	color: #f68e09;
 }
 .rb-btm-Shipping-wrp{
-	padding-top: 30px;
+	padding-top: 20px;
 }
 .rb-btm-Shipping-wrp span{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 16px;
-	line-height: 18px;
+	line-height: 22px;
 	color: #e43b2c;
 	font-weight: 700;
 	text-align: left;
@@ -498,7 +499,7 @@
 .rb-btm-Shipping-wrp p{
 	font-size: 18px;
 	line-height: 22px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 .rb-btm-Shipping-wrp p strong{
 	display: block;
@@ -533,7 +534,7 @@
     -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
     box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
     background: #f2f2f2;
-    padding: 30px 20px;
+    padding: 30px 30px;
     max-width: 870px;
     width: 100%;
     margin: 0 auto;
@@ -550,13 +551,17 @@
 }
 .rb-address-dsc p{
 	padding-top: 10px;
+	font-size: 14px;
+	line-height: 22px;
 }
-.rb-address-dsc a{
-	display:block;
+.rb-address-dsc a,
+.rb-address-dsc span.item{
+	display:inline-block;
 	font-size: 14px;
 	line-height: 20px;
 	color: #2f2f2f;
 	padding-bottom: 5px;
+	font-weight: normal;
 }
 .rb-address-dsc a:hover{
 	color: #f89a1d;
@@ -568,8 +573,21 @@
 	margin: 0;
 	text-align: center;
 }
-
-
+a.nolink{
+	cursor: text;
+}
+a.nolink:hover{
+	text-decoration: underline!important;
+}
+#formStep1 .hasError input,
+#formStep1 .hasError select,
+#formStep1 .hasError textarea,
+#formStep2 .hasError input,
+#formStep2 .hasError input{
+	-webkit-box-shadow: 0 0 0 2px rgb(185, 21, 23) !important;
+	-moz-box-shadow: 0 0 0 2px rgb(185, 21, 23) !important;
+	box-shadow: 0 0 0 2px rgb(185, 21, 23) !important;	
+}
 /*
 -------------------
  CheckOut 2
@@ -670,9 +688,6 @@ a.color-sky{
 
 .rb-content-ck-2-wrp .rb-btm-Shipping-wrp {
     padding-top: 30px;
-}
-.rb-content-ck-2-wrp .rb-cart-dsc{
-	padding-top: 0;
 }
 .rb-content-ck-2-wrp .rb-btm-info{
 	padding-top: 35px;
@@ -837,20 +852,26 @@ a.color-sky{
     position: relative;
     margin-bottom: 15px;
     padding: 4px 5px 6px;
+    text-align: center;
+}
+.rb-checkbox img {
+    margin-right: 4px;
+    vertical-align: middle;
+    margin-top: -4px;
 }
 .rb-checkbox label {
     color: #009900;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
     font-weight: 700;
     margin: 0;
-    padding-left: 100px;
-    display: block;
+    padding-left: 15px;
+    display: inline-block;
+    vertical-align: baseline;
 }
 .rb-checkbox input[type=checkbox] {
-    position: absolute;
-    top: 8px;
-    left: 60px;
+    vertical-align: middle;
+    margin-top: -2px;
 }
 .rb-check-box-dsc p{
 	font-size: 14px;
@@ -868,23 +889,13 @@ a.color-sky{
     margin-top: 12px;
     margin-bottom: 7px;
 }
-.rb-checkbox-park{
-	padding-top: 25px;
-}
-.rb-checkbox-park input[type=checkbox]{
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
+.rb-checkbox-park {
+    padding-top: 4px;
+    text-align: center;
 }
 .rb-checkbox-park label{
 	padding-left: 0;
 	text-align: center;
-}
-
-.rb-cart-dsc-s2{
-	padding-top: 10px;
 }
 .rb-cart-dsc-s2 p{
 	padding-top: 3px;
@@ -976,12 +987,14 @@ a.color-sky{
 	    float: left;
 	    padding-right: 0;
 	    padding-bottom: 15px;
+	    text-align: center;
 	}
 	.rb-sidebar-rgt {
 	    padding-left: 0;
 	}
 	.rb-time-dv-dsc h5{
 		font-size: 22px;
+		text-align: center;
 	}
 	.rb-time-dv-dsc ul {
 	    padding-top: 10px;
@@ -1101,7 +1114,7 @@ a.color-sky{
 	    padding-right: 0;
 	}
 	.rb-checkbox label{
-		padding-left: 50px;
+		padding-left: 20px;
 	}
 	.rb-checkbox input[type=checkbox]{
 		left: 20px;

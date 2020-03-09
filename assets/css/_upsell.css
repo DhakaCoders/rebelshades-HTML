@@ -4,7 +4,12 @@
 .rb-counter-sec-wrp-upsell .rb-counter-lft-dsc > strong{
 	font-size: 18px;
 }
-
+.sell1header .rb-counter-wrp{
+	padding: 20px 30px 20px;
+}
+.sell1header .rb-counter-lft-dsc{
+	padding-top: 8px;
+}
 .upsell-1-order-sec-inr{
 	padding: 25px 0 0;
 	text-align: center;
@@ -192,7 +197,9 @@
 	padding-left: 20px;
 	padding-right: 20px;
 }
-
+.el-hilight-link a:hover{
+	text-decoration: underline;
+}
 .shipping-speed-section{
 	padding-top: 20px;
 	padding-bottom: 25px;
@@ -391,6 +398,7 @@
 .sidebar-img-des ul li{
 	position: relative;
 	padding: 0 0 10px 25px;
+	font-weight: 700;
 }
 .sidebar-img-des ul li:after{
 	content: "\f00c"!important;
@@ -401,7 +409,7 @@
     font-size: 16px;
     padding-right: 0;
     position: absolute;
-    top: 3px;
+    top: 6px;
     left: 0;
     line-height: 15px;
 }
@@ -521,8 +529,15 @@
 	padding-bottom: 20px;
 }
 
-
-
+a.el-submit-btn:hover {
+    background-color: #005a89 !important;
+}
+.hasbg1{
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(255, 156, 0, 0.01);
+    color: rgb(45, 45, 45);	
+}
 @media(max-width: 1499px){
 
 }

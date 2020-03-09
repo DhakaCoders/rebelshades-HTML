@@ -1,15 +1,3 @@
-.modal-backdrop-wrp {
-  background-color: rgba(0, 0, 0, 0.4);
-  opacity: 1;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 99;
-}
 .countdown-popup-main{
   padding: 25px 5px 12px;
   background-color: rgb(255, 255, 255);
@@ -53,34 +41,15 @@
   border-radius: 3px;
   text-transform: uppercase;
   padding: 20px 28px;
+  font-family: 'Oswald', sans-serif;
 }
 .countdown-popup-main a:hover {
   -webkit-box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22),0 233px 233px 0 rgba(255,255,255,0.12) inset;
   box-shadow: inset 0 2px 2px 0 rgba(255,255,255,0.22),0 233px 233px 0 rgba(255,255,255,0.12) inset;
 }
-.countdown-popup-wrapper{
-  display: none;
-  position: absolute;
-  top: -600px;
-  left: 0;
-  right: 0;
-}
-.countdown-popup-wrapper.show{
-  display: block;
-  animation: drop 0.5s ease forwards;
-}
-@keyframes drop{
-  100%{top: 0}
-}
-.countdown-popup-wrapper .modal {
-  position: relative;
-  display: block!important;
-  height: 100%;
-}
 .countdown-popup-wrapper .modal-dialog {
   max-width: 745px;
   width: 100%;
-  margin: 100px auto 0;
 }
 .countdown-popup-wrapper .modal-body{
   z-index: 100;
@@ -113,18 +82,18 @@
 .modal-close-con img{
   width: 100%;
 }
-#clockdiv{
+#clockdiv, #clockdiv1{
   display: inline-block;
   font-weight: 100;
   text-align: center;
   font-size: 30px;
   padding-top: 20px;
 }
-#clockdiv > div{
+#clockdiv > div, #clockdiv1 > div{
   padding: 5px;
   display: inline-block;
 }
-#clockdiv div > span {
+#clockdiv div > span, #clockdiv1 > div span{
   padding: 5px;
   padding-top: 31px;
   background: #FFF;
@@ -137,7 +106,7 @@
   font-size: 47px;
   font-weight: 700;
 }
-#clockdiv .smalltext{
+#clockdiv .smalltext, #clockdiv1 .smalltext{
   padding-top: 6px;
   font-size: 14px;
   font-weight: 700;
@@ -178,39 +147,6 @@
 #dftTimerCon #clockdiv {
   padding-top: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 1499px){
-
-}
-
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
-
-@media(max-width: 1199px){
-
-}
-
-@media(max-width: 991px){
-
-}
-
 @media(max-width: 767px){
   #clockdiv div > span {
     padding-top: 25px;
