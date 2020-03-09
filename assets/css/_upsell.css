@@ -154,6 +154,7 @@
     min-height: 67px;
     padding: 20px 20px 20px 70px;
     font-family: 'Oswald', sans-serif;
+    cursor: pointer;
 }
 
 .el-submit-btn:after{
@@ -196,6 +197,7 @@
 	line-height: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
+	word-break: initial;
 }
 .el-hilight-link a:hover{
 	text-decoration: underline;
@@ -619,6 +621,12 @@ a.el-submit-btn:hover {
 	.upsell-2-cntlr .shipping-speed-sec-top {
 	    padding-left: 0;
 	}
+	.shipping-speed-section{
+		padding-bottom: 0;
+	}
+	.rb-address-dsc-sec-wrp{
+		padding-top: 0;
+	}
 }
 
 @media(max-width: 767px){
@@ -661,9 +669,31 @@ a.el-submit-btn:hover {
 		max-width: 300px;
 		width: 100%;
 	}
+	.el-submit-btn {
+	    font-size: 20px;
+	    line-height: 24px;
+	    width: auto;
+	    max-width: initial;
+	    min-height: 60px;
+	    padding: 20px 10px 20px 45px;
+	}
+	.el-submit-btn:after{
+		left: 11px;
+	}
 
 }
 
 @media(max-width: 359px){
-
+	.el-submit-btn:after{
+		font-size: 19px;
+		left: 10px;
+	}
+	.el-submit-btn {
+	    font-size: 18px;
+	    line-height: 21px;
+	    width: auto;
+	    max-width: initial;
+	    min-height: 60px;
+	    padding: 20px 10px 20px 35px;
+	}
 }
