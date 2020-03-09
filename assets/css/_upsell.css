@@ -627,6 +627,12 @@ a.el-submit-btn:hover {
 	.rb-address-dsc-sec-wrp{
 		padding-top: 0;
 	}
+	.downsell-2-cntlr .shipping-speed-sec-top-btm-color {
+	    padding-top: 0;
+	}
+	.shipping-speed-sec-top h6{
+		padding-top: 20px;
+	}
 }
 
 @media(max-width: 767px){
