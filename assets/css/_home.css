@@ -48,6 +48,9 @@
 	line-height: 22px;
 	color: #fff;
 }
+.rb-counter-lft-dsc p strong{
+	color: #eed200;
+}
 
 
 .rb-in-Stock-wrp {
@@ -405,6 +408,23 @@
 	background-color: rgba(221,221,221,0.4);
 	width: 100%;
 	z-index: 0;
+}
+.checkout-3 .rb-cart-dsc{
+	padding-top: 10px;
+}
+
+.red-des{
+	padding: 15px 0 0;
+}
+.red-des p{
+	color: rgb(228, 59, 44);
+	font-weight: 700;
+}
+.red-des p u{
+	text-decoration: underline;
+}
+.checkout-3 .rb-cart-dsc p{
+	padding-top: 0;
 }
 .rb-cart-dsc{
 	text-align: center;
