@@ -958,11 +958,8 @@ a.color-sky{
 		width: 100%;
 	}	
 	.rb-counter-lft-dsc{
-		padding-right: 60px;
+		padding-right: 40px;
 	}
-}
-
-@media(max-width: 767px){
 	.hdr-innr {
 	    display: block;
 	}
@@ -987,6 +984,14 @@ a.color-sky{
 		text-align: center;
 		padding-bottom: 0;
 	}
+	.rb-address-dsc-wrp-md-cntlr{
+		padding-top: 20px!important;
+		margin-top: 40px;
+	}
+}
+
+@media(max-width: 767px){
+	
 	.rb-content-block-wrp{
 		margin-left: -15px;
 		margin-right: -15px;
