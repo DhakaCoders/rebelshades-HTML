@@ -63,15 +63,7 @@ if( $('.countdown-popup-wrapper').length ){
     $("body").one("mouseleave", function() {
 
         // pop-up
-        $('.countdown-popup-wrapper').addClass('show');
-
-        $('.modal-backdrop-wrp').on('click', function(){
-        $('.countdown-popup-wrapper').removeClass('show');
-        });
-
-        $('.modal-close-con').on('click', function(){
-        $('.countdown-popup-wrapper').removeClass('show');
-        });
+        $('#myModal').modal('show');
 
         // countdown
         function getTimeRemaining(endtime) {
