@@ -900,7 +900,9 @@ a.color-sky{
 .rb-cart-dsc-s2 p{
 	padding-top: 3px;
 }
-
+.nobold{
+	font-weight: normal!important;
+}
 
 
 
@@ -911,6 +913,9 @@ a.color-sky{
 	}
 	.order-step-tabs {
 	    padding: 8px 5px 15px 35px;
+	}
+	.rb-btm-info a{
+		font-size: 20px;
 	}
 }
 
@@ -951,11 +956,11 @@ a.color-sky{
 	.rb-counter-lft-dsc{
 		padding-right: 60px;
 	}
-}
-
-@media(max-width: 767px){
-	.hdr-innr {
-	    display: block;
+	.rb-order-now-img-tp{
+		display: none;
+	}
+	.hdr-innr{
+		display: block;
 	}
 	.hdr-lft {
 	    padding-left: 0;
@@ -973,6 +978,22 @@ a.color-sky{
 	    width: 100%;
 	    float: none;
 	    text-align: center;
+	}
+	.hdr-rgt p {
+	    text-align: center;
+	    padding-bottom: 0;
+	}
+}
+
+@media(max-width: 767px){
+	.hdr-innr {
+	    display: block;
+	}
+	.hdr-lft {
+	    padding-left: 0;
+	    width: 100%;
+	    text-align: center;
+	    float: none;
 	}
 	.hdr-rgt p{
 		text-align: center;
