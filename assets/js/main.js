@@ -80,6 +80,9 @@ $('.modal-close-con, a.closePopup').on('click', function(e){
 Calculate prices -> FREE Night Vision Glasses
 */
 var totalPrice = 7.95;
+if( $('#checkout3').length ){
+  totalPrice = 19.90;
+}
 var itemPrice = 7.95;
 var ProtectOrder = 2.95;
 var SendBonus = 7.95;
